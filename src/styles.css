@@ -1,16 +1,10 @@
-/* Import your font if necessary */
-@font-face {
-  font-family: "Pix";
-  src: url("./PressStart2P-Regular.ttf") format("truetype");
-}
-
 .app {
   text-align: center;
   padding-top: 20px;
   background-color: #fcfaf9;
   color: #333333;
   min-height: 100vh;
-  font-family: "Pix", sans-serif;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +22,7 @@
   padding: 10px;
   box-sizing: border-box;
   resize: none;
-  font-family: "Pix", sans-serif;
+  font-family: sans-serif;
 }
 
 button {
@@ -41,7 +35,7 @@ button {
 
 .thoughtText {
   font-size: 24px;
-  font-family: "Pix", sans-serif;
+  font-family: sans-serif;
   transform-origin: center;
   position: absolute;
   z-index: 10;
@@ -52,7 +46,7 @@ button {
 
 /* Existing styles */
 .animatedChar {
-  font-family: "Pix", sans-serif;
+  font-family: sans-serif;
   display: inline-block;
   width: auto;
   height: auto;
