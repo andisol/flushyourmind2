@@ -1,7 +1,7 @@
 /* Import your font if necessary */
 @font-face {
   font-family: "Pix";
-  src: url("/PressStart2P-Regular.ttf") format("truetype");
+  src: url("./PressStart2P-Regular.ttf") format("truetype");
 }
 
 .app {
