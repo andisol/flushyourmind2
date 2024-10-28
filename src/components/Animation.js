@@ -12,16 +12,11 @@ import Gif9 from "../assets/9.gif";
 import Gif10 from "../assets/10.gif";
 import Gif11 from "../assets/11.gif";
 import Gif12 from "../assets/12.gif";
-import Gif13 from "../assets/13.gif";
-import Gif14 from "../assets/14.gif";
-import Gif15 from "../assets/15.gif";
 import Gif16 from "../assets/16.gif";
 import Gif17 from "../assets/17.gif";
 import Gif18 from "../assets/18.gif";
-import Gif19 from "../assets/19.gif";
 import Gif20 from "../assets/20.gif";
 import Gif21 from "../assets/21.gif";
-import WindGif from "../assets/wind2.gif";
 
 function Animation({ thought, onAnimationComplete, startPosition }) {
   useEffect(() => {
@@ -105,7 +100,6 @@ function Animation({ thought, onAnimationComplete, startPosition }) {
       Gif2,
       Gif3,
       Gif4,
-      WindGif,
       Gif5,
       Gif6,
       Gif7,
@@ -114,13 +108,9 @@ function Animation({ thought, onAnimationComplete, startPosition }) {
       Gif10,
       Gif11,
       Gif12,
-      Gif13,
-      Gif14,
-      Gif15,
       Gif16,
       Gif17,
       Gif18,
-      Gif19,
       Gif20,
       Gif21,
     ];
