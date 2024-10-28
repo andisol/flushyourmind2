@@ -100,7 +100,30 @@ function Animation({ thought, onAnimationComplete, startPosition }) {
 
   const playGifAnimation = (appElement, position, onComplete) => {
     // List of GIFs to choose from
-    const gifs = [ExplosionGif, FireGif, TrashGif, WaterDropGif, WindGif];
+    const gifs = [
+      Gif1,
+      Gif2,
+      Gif3,
+      Gif4,
+      WindGif,
+      Gif5,
+      Gif6,
+      Gif7,
+      Gif8,
+      Gif9,
+      Gif10,
+      Gif11,
+      Gif12,
+      Gif13,
+      Gif14,
+      Gif15,
+      Gif16,
+      Gif17,
+      Gif18,
+      Gif19,
+      Gif20,
+      Gif21,
+    ];
     const gifSrc = gifs[Math.floor(Math.random() * gifs.length)];
 
     const gifElement = document.createElement("img");
