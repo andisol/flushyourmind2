@@ -1,9 +1,26 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import ExplosionGif from "../assets/kitty-cat.gif";
-import FireGif from "../assets/mariposas.gif";
-import TrashGif from "../assets/pmd-pmdtechnologies.gif";
-import WaterDropGif from "../assets/yellow-butterfly-pixel-art.gif";
+import Gif1 from "../assets/1.gif";
+import Gif2 from "../assets/2.gif";
+import Gif3 from "../assets/3.gif";
+import Gif4 from "../assets/4.gif";
+import Gif5 from "../assets/5.gif";
+import Gif6 from "../assets/6.gif";
+import Gif7 from "../assets/7.gif";
+import Gif8 from "../assets/8.gif";
+import Gif9 from "../assets/9.gif";
+import Gif10 from "../assets/10.gif";
+import Gif11 from "../assets/11.gif";
+import Gif12 from "../assets/12.gif";
+import Gif13 from "../assets/13.gif";
+import Gif14 from "../assets/14.gif";
+import Gif15 from "../assets/15.gif";
+import Gif16 from "../assets/16.gif";
+import Gif17 from "../assets/17.gif";
+import Gif18 from "../assets/18.gif";
+import Gif19 from "../assets/19.gif";
+import Gif20 from "../assets/20.gif";
+import Gif21 from "../assets/21.gif";
 import WindGif from "../assets/wind2.gif";
 
 function Animation({ thought, onAnimationComplete, startPosition }) {
